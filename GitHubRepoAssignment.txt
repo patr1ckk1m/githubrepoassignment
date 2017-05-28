@@ -1,0 +1,12 @@
+create new repository on github
+windows+r
+mkdir githubrepoassignment
+cd githubrepoassignment
+git init
+copy NUL readme.md
+git status
+git add .
+git checkout -b master
+git commit -m "first commit"
+git remote add origin https://github.com/patr1ckk1m/githubrepoassignment.git
+git push -u origin master
